@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+}
+
+.list-view {
+    margin: 0 auto;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.list-view .header h1{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.list-view .header a {
+    float: right;
+}
+
+.list-view .list {
+    min-height: 420px;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0;
+    border: 3px solid #000;
+    margin-bottom: 5px;
+}
+
+.list-view .list .item {
+    border-bottom: 1px solid #cecece;
+    padding: 0 5px;
+}
+
+.list-view .list .item h2 {
+    margin: 0;
+}
+
+.list-view .list .item .flex {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.list-view .list .item .content {
+    width: 80%;
+}
+
+.list-view .list .item .pure-button::after {
+    clear: both;
+}
+
+input {
+    padding: 10px 0;
+}
+
+.error {
+    border: 1px solid #f00;
+}
+
+textarea {
+    min-height: 454px;
+}
